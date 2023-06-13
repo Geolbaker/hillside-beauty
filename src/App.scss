@@ -4,30 +4,80 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 
   h1 {
     font-size: 80px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .header-backdrop {
+    position: absolute;
+    top: -80%;
+    width: 600px;
   }
 
   .under-header {
     position: relative;
     width: 100%;
-    max-width: 600px;
-    margin-bottom: 25px;
+    max-width: 800px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     span {
-
-
-      &:nth-child(1) {
-
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 7px;
+      border-radius: 10px;
+      min-width: 120px;
+      svg {
+        margin-bottom: 10px;
       }
-      &:nth-child(2) {
+    }
+  }
 
+  .intro-paragraph {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 40px;
+
+  }
+
+  .cta-button {
+    padding: 15px;
+    min-width: 200px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #BE4B85;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    svg {
+      position: absolute;
+      top: 6px;
+
+      &.bi-telephone {
+        left: 8px;
       }
-      &:nth-child(3) {
+
+      &.bi-calendar-heart {
+        right: 8px;
       }
     }
   }
