@@ -1,0 +1,20 @@
+html {
+height: 5000px;
+}
+
+body {
+  font-family: tahoma, sans-serif;
+  color: #BE4B85;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@font-face {
+    font-family: Savoye-plain;
+    src: url("./assets/fonts/SavoyePlain.otf") format("opentype");
+}
+
+h1 {
+  font-family: 'Savoye-plain', cursive, serif;
+}
