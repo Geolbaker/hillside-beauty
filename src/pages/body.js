@@ -1,6 +1,18 @@
 import headerImage from '../assets/images/header-backdrop.webp';
+import backgroundFlower from '../assets/images/left_hero_flowers.webp';
+import $ from "jquery";
+import SimpleImageSlider from "react-simple-image-slider";
+
+const images = [
+  { url: "https://lh5.googleusercontent.com/p/AF1QipMjKywFAAWkBQsMZskKpyDK_xbAuhgKxYy0S-Pa=s1046-k-no" },
+  { url: "https://lh3.ggpht.com/p/AF1QipOpC9yThRQ_bKl4_MtInN6hxnTyNRr1yg5BK-Ul=s1024" },
+  { url: "https://lh5.googleusercontent.com/p/AF1QipPlw5wIVfUv-kIDo9zKVvTtVJk1F_RsePKKyVRf=s1016-k-no" },
+  { url: "https://lh5.googleusercontent.com/p/AF1QipPABPN_Hdb7koYVMkYZZDLd42zAd4_khr9N0NvE=s1016-k-no" },
+  { url: "https://lh5.googleusercontent.com/p/AF1QipOOACjTCSui8MtBttVbTnB5LKCL-n5BaxXSbK3B=s676-k-no" },
+];
 
 function Body() {
+
   var scrolledDown = false;
 
   window.addEventListener('scroll', function() {
@@ -21,8 +33,9 @@ function Body() {
 
   return (
     <div className="homepage">
+      <span className="flower-background" style={{backgroundImage: `url(${backgroundFlower})` }}></span>
       <div className="hero">
-        <img class="header-backdrop" src={headerImage} />
+        <img className="header-backdrop" src={headerImage} alt=""/>
         <h1>Hillside Beauty</h1>
         <div className="under-header">
           <span>
@@ -56,11 +69,16 @@ function Body() {
           </svg>
         </a>
       </div>
-      {/* <img data-aos="fade-right" src="https://lh5.googleusercontent.com/p/AF1QipMjKywFAAWkBQsMZskKpyDK_xbAuhgKxYy0S-Pa=s1046-k-no" />
-      <img data-aos="fade-left" src="https://lh3.ggpht.com/p/AF1QipOpC9yThRQ_bKl4_MtInN6hxnTyNRr1yg5BK-Ul=s1024" />
-      <img data-aos="fade-right" src="https://lh5.googleusercontent.com/p/AF1QipPlw5wIVfUv-kIDo9zKVvTtVJk1F_RsePKKyVRf=s1016-k-no" />
-      <img data-aos="fade-left" src="https://lh5.googleusercontent.com/p/AF1QipPABPN_Hdb7koYVMkYZZDLd42zAd4_khr9N0NvE=s1016-k-no" />
-      <img data-aos="fade-right" src="https://lh5.googleusercontent.com/p/AF1QipOOACjTCSui8MtBttVbTnB5LKCL-n5BaxXSbK3B=s676-k-no" />*/}
+      <div id="homepage_slider" className="homepage_slider_wrapper">
+        <SimpleImageSlider
+          width={800}
+          height={504}
+          images={images}
+          showBullets={true}
+          showNavs={true}
+          autoPlay={true}
+        />
+      </div>
     </div>
   );
 
