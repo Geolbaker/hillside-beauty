@@ -79,6 +79,124 @@ function Body() {
           autoPlay={true}
         />
       </div>
+      <div className="price_list">
+        <div class="col">
+          <div class="col-wrapper">
+            <h2>
+              Hands & Feet
+            </h2>
+            <p><strong>Gel Mani £22</strong></p>
+            <p><strong>Gel Pedi £22</strong></p>
+            <p>(Shape, cuticle tidy, gel application, cuticle oil, hand/foot cream)</p>
+            <p>Option of HEMA Free Gel</p>
+            <br/>
+            <p><strong>Builder Gel Mani £25</strong></p>
+            <p>(A more durable and long lasting gel base for nails that need extra strength, can be infilled every 2-4 weeks)</p>
+            <p>Option of HEMA Free Gel</p>
+            <br/>
+            <p><strong>Gel Reapplication £27</strong></p>
+            <p><strong>Builder Gel Infill £30</strong></p>
+            <br/>
+            <p><strong>Hard Gel Extensions £30</strong></p>
+            <p><strong>Hard Gel Extension Infill £37</strong></p>
+            <p>(Hard gel on half-cover tips)</p>
+            <br/>
+            <p><strong>Luxury Gel Mani £30</strong></p>
+            <p><strong>Luxury Gel Pedi £30</strong></p>
+            <p>(File, cuticle tidy, gel polish, foot/hand soak, dead skin removal, exfoliation, mask in heated boots/mitts, massage)</p>
+            <p><strong>Luxury Mani without Gel £25</strong></p>
+            <p><strong>Luxury Pedi without Gel £25</strong></p>
+            <br/>
+            <p><strong>Gel Removal and Mini Mani £15</strong></p>
+            <p>(Removal of gel, clip, file, cuticle tidy, foot/hand cream and cuticle oil)</p>
+            <p><strong>Gel Removal No Re-application £7</strong></p>
+            <p>(Removal of gel only)</p>
+            <br/>
+            <p><strong>Nail Repair per Nail £2</strong></p>
+            <p><strong>Nail Art per Nail 50p - £2</strong></p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="col-wrapper">
+            <h2>
+              Lashes & Brows
+            </h2>
+            <p><strong>RefectoCil Eyelash Tint £10*</strong></p>
+            <p><strong>RefactoCil Eyebrow Tint £7*</strong></p>
+            <p>(An eyelash/eyebrow tint of your chosen colour, lasts 2-4 weeks)</p>
+            <br/>
+            <p><strong>Last Base Eyelash Perm and Tint £30*</strong></p>
+            <p>(A perm of your natural lashes and black tint, lasts 4-6 weeks)</p>
+            <br/>
+            <p><strong>Nouveau Natural Eyelash Extensions £40</strong></p>
+            <br/>
+            <p><strong>Nouveau Hybrid Eyelash Extensions £50 </strong></p>
+            <p>(More volume and thickness)</p>
+            <br/>
+            <p><strong>Eyelash Infil £20-£35</strong></p>
+            <p>(Recommended every 2-4 weeks. Price varies on amount of lashes needing to infill)</p>
+            <br/>
+            <p><strong>Lash Extension Removal £15</strong></p>
+            <br/>
+            <p>*Patch test required at least 48 hours prior to treatment.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="col-wrapper">
+            <h2>
+              Beauty Therapy
+            </h2>
+            <p><strong>30 Min. Back and Shoulder Massage £25</strong></p>
+            <br />
+            <p><strong>1 Hours Full Body Massage £45</strong></p>
+            <p>(Décolleté, hands, arms, feet, legs, abdomen, back and shoulders)</p>
+            <br />
+            <p><strong>30 Min. Shoulder, Scalp, and Sinus Massage £25</strong></p>
+            <p>(With essential oil therapy)</p>
+            <br />
+            <p><strong>1 Hour 30 Min. Relaxing Facial with Touch Therapy £40</strong></p>
+            <p>(Cleanse, exfoliation, face mask, hand and foot mask in heated boots and mitts, face massage, hand and foot massage, tone, face cream)</p>
+            <br />
+            <p><strong>45 Min. Mini Facial £25</strong></p>
+            <p>(Cleanse, exfoliation, face massage, mask, tone, face cream, products to suit your skin type and treatment goals)</p>
+            <br />
+            <p><strong>45 Min. Retinol Facial £30</strong></p>
+            <p>(A specialised facial to improve the appearance of fine lines and wrinkles as well as acne scars and blemishes by deeply exfoliating the skin)</p>
+            <p>Not suitable for sensitive skin</p>
+            <br />
+            <p><strong>Hopi Ear Candling £20</strong></p>
+            <p>(Relieves conditions of ears, nose and throat. Removes impurities and wax from the ears)</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="col-wrapper">
+            <h2>
+              Waxing
+            </h2>
+            <p><strong>Eyebrow £7</strong></p>
+            <br />
+            <p><strong>Upper Lip £7</strong></p>
+            <br />
+            <p><strong>Chin £7</strong></p>
+            <br />
+            <p><strong>Full face £15</strong></p>
+            <p>(Exl. Eyebrows)</p>
+            <br />
+            <p><strong>Half leg £15</strong></p>
+            <p><strong>Full Leg £25</strong></p>
+            <br />
+            <p><strong>Under Arm £10</strong></p>
+            <br />
+            <p><strong>Arm £15</strong></p>
+            <br />
+            <p><strong>Bikini £15</strong></p>
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 
